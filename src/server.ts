@@ -44,7 +44,7 @@ const initDB = async () => {
 initDB();
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello Jubayer!");
+  res.send("Hello Jubayer.!");
 });
 
 app.post("/", (req: Request, res: Response) => {
